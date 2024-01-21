@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/cart.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="above-header">
+      <p>Discover style, shop trends – your fashion journey starts here!</p>
+    </div>
+    <header>
+      <div class="header-left">
+        <div class="moving-menu">
+          <div class="close-menu-container">
+            <button class="close-menu"><i class="ri-close-line"></i></button>
+          </div>
+          <div class="menu-container">
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="#">Store</a></li>
+              <li><a href="#">About us</a></li>
+              <li><a href="#">contact</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <button class="menu-icon js-menu-icon">
+          <i class="icon ri-menu-2-line"></i>
+        </button>
+        <button class="search-icon"><i class="icon ri-search-line"></i></button>
+      </div>
+
+      <div class="header-mid">
+        <a href="index.html" class="header-transition">home</a>
+        <a href="#" class="header-transition" style="margin: 0px 50px">store</a>
+        <div class="logo">
+          <a href="index.html"
+            ><img class="amazon-logo1" src="images/amazon-logo.png" alt=""
+          /></a>
+        </div>
+        <a href="#" class="header-transition" style="margin: 0px 50px"
+          >about us</a
+        >
+        <a href="#" class="header-transition">contact</a>
+      </div>
+
+      <div class="header-right">
+        <button class="search-icon2">
+          <i class="icon ri-search-line"></i>
+        </button>
+        <a href="cart.html"><i class="icon ri-shopping-cart-line"></i></a>
+      </div>
+    </header>
+    <div class="grey-screen js-grey-screen"></div>
+
+    <!-- section -->
+    <!-- shopping-cart -->
+    <section class="shopping-cart-container">
+      <div class="shopping-cart">
+        <div class="name">
+          <h1>Shopping Cart</h1>
+          <div>Price</div>
+        </div>
+
+        <div class="products js-products">
+          <!-- product -->
+          <!-- <div class="porduct-container">
+            <div class="image-section">
+              <img src="images/atomic-habits.jpg" alt="" />
+            </div>
+
+            <div class="product-detailes">
+              <div class="detailes">
+                <div class="name-author">
+                  <p>
+                    Atomic Habits: An Easy & Proven Way to Build Good Habits &
+                    Break Bad Ones
+                  </p>
+                  <span>by James Clear</span>
+                </div>
+                <div class="product-description">
+                  <p class="best-seller">
+                    <span>#1 Best Seller</span> in Books
+                  </p>
+                  <p class="hardcover">Hardcover</p>
+                  <p class="in-stock">In Stock</p>
+                  <div class="if-a-gift">
+                    <input type="checkbox" /><label for=""
+                      >This is a gift<a href="#"> Learn more</a></label
+                    >
+                  </div>
+                  <div class="product-buttons">
+                    <ul>
+                      <li class="select-quantity">
+                        <select value="" name="" id="">
+                          <option value="0">0 (Delete)</option>
+                          <option selected value="1">1</option>
+                          <option value="2">2</option>
+                          <option value="3">3</option>
+                          <option value="4">4</option>
+                          <option value="5">5</option>
+                          <option value="6">6</option>
+                          <option value="7">7</option>
+                          <option value="8">8</option>
+                          <option value="9">9</option>
+                          <option value="10+">10+</option>
+                        </select>
+                      </li>
+                      <li class="delete-product"><span>Delete</span></li>
+                      <li><span>Save for later</span></li>
+                      <li><span>Compare with similar items</span></li>
+                      <li class="share"><span>Share</span></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="price-block">$13.79</div>
+            </div>
+          </div> -->
+
+          <!-- product -->
+        </div>
+      </div>
+
+      <!-- total-price -->
+      <div class="total-price-sellers">
+        <div class="total-price">
+          <div class="subtotal">
+            <span class="subtotal-name">Subtotal</span
+            ><span class="total-quantity">(3 items):</span
+            ><span class="total">$50.17</span>
+          </div>
+          <div class="gift">
+            <input type="checkbox" /><label for=""
+              >This order contains a gift</label
+            >
+          </div>
+          <button class="checkout-button">Proceed to Checkout</button>
+        </div>
+
+        <!-- top-sellers -->
+        <div class="top-sellers">
+          <div style="font-size: 18px; font-weight: 500">
+            International top sellers
+          </div>
+        </div>
+      </div>
+    </section>
+    <script type="module" src="scripts/shopping-cart.js"></script>
+  </body>
+</html>

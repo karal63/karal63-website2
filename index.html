@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="above-header">
+      <p>Discover style, shop trends – your fashion journey starts here!</p>
+    </div>
+    <header>
+      <div class="header-left">
+        <div class="moving-menu">
+          <div class="close-menu-container">
+            <button class="close-menu"><i class="ri-close-line"></i></button>
+          </div>
+          <div class="menu-container">
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Store</a></li>
+              <li><a href="#">About us</a></li>
+              <li><a href="#">contact</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <button class="menu-icon js-menu-icon">
+          <i class="icon ri-menu-2-line"></i>
+        </button>
+        <button class="search-icon"><i class="icon ri-search-line"></i></button>
+      </div>
+
+      <div class="header-mid">
+        <a href="#" class="header-transition">home</a>
+        <a href="#" class="header-transition" style="margin: 0px 50px">store</a>
+        <div class="logo">
+          <a href="#"
+            ><img class="amazon-logo1" src="images/amazon-logo.png" alt=""
+          /></a>
+        </div>
+        <a href="#" class="header-transition" style="margin: 0px 50px"
+          >about us</a
+        >
+        <a href="#" class="header-transition">contact</a>
+      </div>
+
+      <div class="header-right">
+        <button class="search-icon2">
+          <i class="icon ri-search-line"></i>
+        </button>
+        <a href="cart.html"><i class="icon ri-shopping-cart-line"></i></a>
+      </div>
+    </header>
+    <div class="grey-screen js-grey-screen"></div>
+    <div class="container-product">
+      <section class="product">
+        <div class="image-section">
+          <img
+            class="cart-image"
+            src="images/H26c22873c079416387cb43b970aa8753u_720x720.webp"
+            alt="1"
+          />
+          <img
+            src="images/H66269f2b1a874ab8973cd791d79c93ed0_720x720.webp"
+            alt="2"
+          />
+          <img
+            src="images/He30a6cf5275a4ff982b710382a6b38c28_720x720.webp"
+            alt="3"
+          />
+          <img
+            src="images/product-image-1549665330_720x_4993cc8e-ae33-4b09-8722-51fa749f7639_720x720.jpg"
+            alt="4"
+          />
+        </div>
+        <div class="decription-section">
+          <div class="product-description">
+            <div class="product-name">
+              <p>geovase - indoor floating terrarium</p>
+            </div>
+
+            <div class="price">
+              <div class="first-line-block">
+                <del>$59.99 USD</del>$29.99 USD
+              </div>
+              <span class="save">Save $30.00 USD</span>
+            </div>
+            <div class="rating">
+              <img src="images/rating-50.png" alt="" /><span>(49)</span>
+            </div>
+          </div>
+
+          <div class="product-properties">
+            <div class="color-quantity">
+              <div class="color">
+                <span>Color</span>
+                <select name="colors" id="colors">
+                  <option selected value="">White</option>
+                  <option value="">Black</option>
+                  <option value="">Purple</option>
+                </select>
+              </div>
+
+              <div class="quantity">
+                <span>Quantity</span>
+                <div class="quantity-chosing">
+                  <div class="minus js-minus">-</div>
+                  <input type="text" class="js-quantity" value="1" />
+                  <div class="plus js-plus">+</div>
+                </div>
+                <div class="invalid-value">Invalid value!</div>
+              </div>
+            </div>
+            <div class="buy-button-container">
+              <div class="added-to-cart js-added-to-cart">
+                <span>Added to cart</span
+                ><i class="ri-checkbox-circle-fill"></i>
+              </div>
+              <button class="buy-button js-buy-button">buy it now</button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script type="module" src="scripts/script.js"></script>
+  </body>
+</html>
